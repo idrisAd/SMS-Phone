@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.idrisadrien.tp8a.MainActivity">
+
+    <LinearLayout
+        android:layout_width="356dp"
+        android:layout_height="426dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/smsText"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+
+            android:ems="10"
+            android:inputType="textMultiLine"
+            tools:layout_editor_absoluteX="15dp"
+            tools:layout_editor_absoluteY="16dp"
+            />
+
+        <EditText
+            android:id="@+id/numText"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:inputType="phone"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="286dp"
+            />
+
+        <Button
+            android:id="@+id/sendSMS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send SMS"
+            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteY="146dp"/>
+
+        <Button
+            android:id="@+id/callNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="CALL"
+            tools:layout_editor_absoluteX="49dp"
+            tools:layout_editor_absoluteY="396dp"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
